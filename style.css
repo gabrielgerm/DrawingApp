@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #161716
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+}
+
+#canvas {
+    height: 90vh;
+    width: 100vw;
+    background-color: #fff;
+    
+}
+
+.tools {
+    display: flex;
+    height: 10vh;
+    width: 70vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clear {
+    border-radius: 50%;
+    padding: 1.2rem;
+    cursor: pointer;
+}
+
+.color-picker {
+    width: 5rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.pen-range {
+    width: 8rem;
+    cursor: pointer;    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .tools {
+        width: 50vw;
+        background-color: #161716
+    }
+
+    .clear {
+        padding: 2rem;
+        border: 0px solid #000
+    }
+    
+    .color-picker {
+        width: 8rem;
+        height: 6rem;
+        cursor: pointer;
+        border: 0px
+    }
+    
+    .pen-range {
+        width: 18rem;
+    }
+  }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
